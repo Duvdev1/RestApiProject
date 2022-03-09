@@ -1,0 +1,182 @@
+2022-03-08 21:54:37,322:app:signup:19344:12116:INFO:app run:insert a new user
+2022-03-08 22:18:35,611:UserFacade:get_by_name:7384:7360:INFO:userFacade: getting user by name: roy
+2022-03-08 22:18:35,614:app:signup:7384:7360:INFO:app run:insert a new user
+2022-03-08 22:18:35,614:UserFacade:add_user:7384:7360:INFO:userFacade: adding user
+2022-03-08 22:18:35,614:UserFacade:add_user:7384:7360:INFO:userFacade: getting user by id None
+2022-03-08 22:18:35,616:UserFacade:add_user:7384:7360:INFO:userFacade: adding user
+2022-03-08 22:19:27,849:UserFacade:get_by_name:24536:2676:INFO:userFacade: getting user by name: roy
+2022-03-08 22:19:27,854:app:signup:24536:2676:INFO:app run:insert a new user
+2022-03-08 22:19:27,854:UserFacade:add_user:24536:2676:INFO:userFacade: adding user
+2022-03-08 22:19:27,854:UserFacade:add_user:24536:2676:INFO:userFacade: getting user by id None
+2022-03-08 22:19:27,856:UserFacade:add_user:24536:2676:INFO:userFacade: adding user
+2022-03-08 22:23:32,990:UserFacade:get_by_name:8592:1916:INFO:userFacade: getting user by name: roy
+2022-03-08 22:23:32,994:app:signup:8592:1916:INFO:app run:insert a new user
+2022-03-08 22:23:32,994:UserFacade:add_user:8592:1916:INFO:userFacade: adding user
+2022-03-08 22:23:32,994:UserFacade:add_user:8592:1916:INFO:userFacade: getting user by id None
+2022-03-08 22:23:32,995:UserFacade:add_user:8592:1916:INFO:userFacade: adding user
+2022-03-08 22:29:16,030:UserFacade:get_by_name:18860:24924:INFO:userFacade: getting user by name: roy
+2022-03-08 22:29:16,034:app:signup:18860:24924:INFO:app run:insert a new user
+2022-03-08 22:29:16,034:UserFacade:add_user:18860:24924:INFO:userFacade: adding user
+2022-03-08 22:29:16,034:UserFacade:add_user:18860:24924:INFO:userFacade: getting user by id None
+2022-03-08 22:29:16,035:UserFacade:add_user:18860:24924:INFO:userFacade: adding user
+2022-03-08 22:29:16,040:app:signup:18860:24924:INFO:app run:insert a new user - User: [id=1, user_name=roy, password=Aa123]
+2022-03-08 22:30:09,366:UserFacade:get_by_name:18860:17252:INFO:userFacade: getting user by name: roy
+2022-03-08 22:30:09,367:app:login:18860:17252:ERROR:app run: user dose not exist
+2022-03-08 22:31:14,820:UserFacade:get_by_name:15492:19352:INFO:userFacade: getting user by name: roy
+2022-03-08 22:31:14,824:app:login:15492:19352:ERROR:app run: user dose not exist
+2022-03-08 22:32:32,174:UserFacade:get_by_name:13712:24376:INFO:userFacade: getting user by name: roy
+2022-03-08 22:34:39,945:UserFacade:get_by_name:15088:12860:INFO:userFacade: getting user by name: roy
+2022-03-08 22:37:46,117:UserFacade:get_by_name:5428:15148:INFO:userFacade: getting user by name: roy
+2022-03-08 22:41:51,442:UserFacade:get_by_name:10184:23156:INFO:userFacade: getting user by name: roy
+2022-03-08 22:42:38,093:UserFacade:get_by_name:24468:2400:INFO:userFacade: getting user by name: roy
+2022-03-08 22:44:18,318:UserFacade:get_by_name:24468:23620:INFO:userFacade: getting user by name: roy
+2022-03-08 22:44:40,622:UserFacade:get_by_name:24468:5296:INFO:userFacade: getting user by name: roy
+2022-03-08 22:50:19,596:UserFacade:get_by_name:18068:23448:INFO:userFacade: getting user by name: roy
+2022-03-08 22:54:00,333:UserFacade:get_by_name:24932:932:INFO:userFacade: getting user by name: roy
+2022-03-08 22:56:15,008:UserFacade:get_by_name:25124:17992:INFO:userFacade: getting user by name: roy
+2022-03-08 22:57:03,736:UserFacade:get_by_name:10700:3128:INFO:userFacade: getting user by name: roy
+2022-03-08 22:58:18,944:UserFacade:get_by_name:24932:10188:INFO:userFacade: getting user by name: roy
+2022-03-08 22:59:30,405:UserFacade:get_by_name:22768:15088:INFO:userFacade: getting user by name: roy
+2022-03-08 23:00:50,640:UserFacade:get_by_name:25440:24800:INFO:userFacade: getting user by name: roy
+2022-03-08 23:08:48,536:UserFacade:get_by_name:24484:11456:INFO:userFacade: getting user by name: roy
+2022-03-08 23:09:42,235:UserFacade:get_by_name:23880:17576:INFO:userFacade: getting user by name: roy
+2022-03-08 23:11:54,879:UserFacade:get_by_name:17300:23792:INFO:userFacade: getting user by name: roy
+2022-03-08 23:11:56,266:UserFacade:get_by_name:17300:22796:INFO:userFacade: getting user by name: roy
+2022-03-08 23:13:43,272:UserFacade:get_by_name:8456:14868:INFO:userFacade: getting user by name: roy
+2022-03-08 23:16:17,261:UserFacade:get_by_name:23704:20728:INFO:userFacade: getting user by name: roy
+2022-03-09 15:56:52,442:app:decorated:23704:24652:ERROR:app run: Token is missing
+2022-03-09 15:59:59,281:app:decorated:10264:10260:ERROR:app run: Token is missing
+2022-03-09 16:00:32,505:UserFacade:get_by_name:10264:6284:INFO:userFacade: getting user by name: roy
+2022-03-09 17:07:38,519:UserFacade:get_by_name:27232:1504:INFO:userFacade: getting user by name: roy
+2022-03-09 17:11:25,736:UserFacade:get_by_name:6532:26996:INFO:userFacade: getting user by name: roy
+2022-03-09 17:11:27,714:UserFacade:get_by_name:6532:26840:INFO:userFacade: getting user by name: roy
+2022-03-09 17:26:07,186:UserFacade:get_by_name:7164:28608:INFO:userFacade: getting user by name: roy
+2022-03-09 17:27:13,556:UserFacade:get_by_name:7164:8264:INFO:userFacade: getting user by name: roy
+2022-03-09 17:27:28,099:UserFacade:get_by_name:7164:24476:INFO:userFacade: getting user by name: roy
+2022-03-09 17:27:54,459:UserFacade:get_by_name:7164:17232:INFO:userFacade: getting user by name: roy
+2022-03-09 17:28:05,843:UserFacade:get_by_name:7164:18396:INFO:userFacade: getting user by name: roy
+2022-03-09 17:34:33,419:UserFacade:get_by_name:21496:26568:INFO:userFacade: getting user by name: roy
+2022-03-09 17:36:48,887:UserFacade:get_by_name:11952:21808:INFO:userFacade: getting user by name: roy
+2022-03-09 17:42:09,036:UserFacade:get_by_name:21780:19916:INFO:userFacade: getting user by name: roy
+2022-03-09 18:07:08,012:UserFacade:get_by_name:11516:14976:INFO:userFacade: getting user by name: roy
+2022-03-09 18:08:15,070:UserFacade:get_by_name:10696:21076:INFO:userFacade: getting user by name: roy
+2022-03-09 18:08:15,075:app:login:10696:21076:INFO:app run: user login successfully
+2022-03-09 18:11:25,857:UserFacade:get_by_name:12512:8904:INFO:userFacade: getting user by name: roy
+2022-03-09 18:11:25,861:app:login:12512:8904:INFO:app run: user login successfully
+2022-03-09 19:31:27,656:UserFacade:get_by_name:12512:18136:INFO:userFacade: getting user by name: maya
+2022-03-09 19:31:27,657:app:signup:12512:18136:INFO:app run:insert a new user
+2022-03-09 19:31:27,657:UserFacade:add_user:12512:18136:INFO:userFacade: adding user
+2022-03-09 19:31:27,657:UserFacade:add_user:12512:18136:INFO:userFacade: getting user by id None
+2022-03-09 19:31:27,660:UserFacade:add_user:12512:18136:INFO:userFacade: adding user
+2022-03-09 19:31:27,668:app:signup:12512:18136:INFO:app run:insert a new user - User: [id=2, user_name=maya, password=Aa1234]
+2022-03-09 19:32:13,405:UserFacade:get_by_name:12512:5104:INFO:userFacade: getting user by name: maya
+2022-03-09 19:32:13,406:app:login:12512:5104:INFO:app run: user login successfully
+2022-03-09 19:55:28,352:UserFacade:get_by_user_and_password:21632:14232:INFO:userFacade: getting user by name: maya
+2022-03-09 19:55:28,356:app:login:21632:14232:INFO:app run: user login successfully
+2022-03-09 19:56:23,720:UserFacade:get_by_user_and_password:21520:18340:INFO:userFacade: getting user by name: maya
+2022-03-09 19:56:23,723:app:login:21520:18340:INFO:app run: user login successfully
+2022-03-09 20:03:22,019:UserFacade:get_by_user_and_password:4888:3996:INFO:userFacade: getting user by name: maya
+2022-03-09 20:03:22,023:app:login:4888:3996:INFO:app run: user login successfully
+2022-03-09 20:03:29,647:UserFacade:get_by_user_and_password:4888:23360:INFO:userFacade: getting user by name: maya
+2022-03-09 20:03:29,648:app:login:4888:23360:INFO:app run: user login successfully
+2022-03-09 20:08:55,431:UserFacade:get_by_user_and_password:20488:25964:INFO:userFacade: getting user by name: maya
+2022-03-09 20:08:55,434:app:login:20488:25964:INFO:app run: user login successfully
+2022-03-09 20:26:50,214:UserFacade:get_by_user_and_password:620:24652:INFO:userFacade: getting user by name: maya
+2022-03-09 20:26:50,217:app:login:620:24652:INFO:app run: user login successfully
+2022-03-09 20:28:37,672:UserFacade:get_by_user_and_password:13704:11272:INFO:userFacade: getting user by name: maya
+2022-03-09 20:28:37,676:app:login:13704:11272:INFO:app run: user login successfully
+2022-03-09 20:30:42,132:UserFacade:get_by_user_and_password:10112:21604:INFO:userFacade: getting user by name: maya
+2022-03-09 20:30:42,136:app:login:10112:21604:INFO:app run: user login successfully
+2022-03-09 21:43:51,984:UserFacade:get_by_user_and_password:24412:13948:INFO:userFacade: getting user by name: maya
+2022-03-09 21:43:51,988:app:login:24412:13948:INFO:app run: user login successfully
+2022-03-09 21:44:46,868:UserFacade:get_by_user_and_password:24412:25364:INFO:userFacade: getting user by name: roy
+2022-03-09 21:44:46,869:app:login:24412:25364:INFO:app run: user login successfully
+2022-03-09 21:48:05,846:UserFacade:get_by_name:24412:21804:INFO:userFacade: getting user by name: matan
+2022-03-09 21:48:05,847:app:signup:24412:21804:INFO:app run:insert a new user
+2022-03-09 21:48:05,847:UserFacade:add_user:24412:21804:INFO:userFacade: adding user
+2022-03-09 21:48:05,847:UserFacade:add_user:24412:21804:INFO:userFacade: getting user by id None
+2022-03-09 21:48:05,849:UserFacade:add_user:24412:21804:INFO:userFacade: adding user
+2022-03-09 21:48:05,853:app:signup:24412:21804:INFO:app run:insert a new user - User: [id=3, user_name=matan, password=12z]
+2022-03-09 21:48:59,385:UserFacade:get_by_name:24412:10604:INFO:userFacade: getting user by name: matan
+2022-03-09 21:48:59,386:app:signup:24412:10604:ERROR:app run: user already exist
+2022-03-09 21:49:38,009:UserFacade:get_by_name:24412:22656:INFO:userFacade: getting user by name: matan
+2022-03-09 21:49:38,010:app:signup:24412:22656:ERROR:app run: user already exist
+2022-03-09 21:52:41,483:UserFacade:get_by_user_and_password:24412:22156:INFO:userFacade: getting user by name: roy
+2022-03-09 21:52:41,484:app:login:24412:22156:INFO:app run: user login successfully
+2022-03-09 21:55:45,275:UserFacade:get_by_user_and_password:24412:14224:INFO:userFacade: getting user by name: roy
+2022-03-09 21:58:00,001:app:login:21008:9180:ERROR:app run: password and username is required
+2022-03-09 21:58:32,644:app:login:21008:24364:ERROR:app run: password and username is required
+2022-03-09 22:00:41,056:UserFacade:get_by_user_and_password:21008:23416:INFO:userFacade: getting user by name: roy
+2022-03-09 22:00:41,060:app:login:21008:23416:INFO:app run: user login successfully
+2022-03-09 22:00:54,917:UserFacade:get_by_user_and_password:21008:17536:INFO:userFacade: getting user by name: roy
+2022-03-09 22:00:54,918:app:login:21008:17536:INFO:app run: user login successfully
+2022-03-09 22:01:02,414:UserFacade:get_by_user_and_password:21008:3512:INFO:userFacade: getting user by name: roy
+2022-03-09 22:01:02,415:app:login:21008:3512:INFO:app run: user login successfully
+2022-03-09 22:02:03,682:UserFacade:get_by_user_and_password:21008:25256:INFO:userFacade: getting user by name: roybb
+2022-03-09 22:02:03,682:app:login:21008:25256:INFO:app run: user login successfully
+2022-03-09 22:02:40,463:UserFacade:get_by_user_and_password:21008:4888:INFO:userFacade: getting user by name: gkgkjrgbzd
+2022-03-09 22:02:40,464:app:login:21008:4888:INFO:app run: user login successfully
+2022-03-09 22:03:25,951:UserFacade:get_by_user_and_password:2660:4780:INFO:userFacade: getting user by name: gkgkjrgbzd
+2022-03-09 22:03:25,955:app:login:2660:4780:INFO:app run: user login successfully
+2022-03-09 22:06:24,650:UserFacade:get_by_user_and_password:13480:24884:INFO:userFacade: getting user by name: gkgkjrgbzd
+2022-03-09 22:06:24,651:app:login:13480:24884:INFO:app run: user login successfully
+2022-03-09 22:10:34,174:UserFacade:get_by_user_and_password:14956:21520:INFO:userFacade: getting user by name: karin
+2022-03-09 22:10:34,176:app:login:14956:21520:INFO:app run: user login successfully
+2022-03-09 22:12:31,572:UserFacade:get_by_user_and_password:10148:11356:INFO:userFacade: getting user by name: karin
+2022-03-09 22:12:31,573:app:login:10148:11356:INFO:app run: user login successfully
+2022-03-09 22:13:05,219:UserFacade:get_by_user_and_password:21792:9896:INFO:userFacade: getting user by name: karin
+2022-03-09 22:13:05,220:app:login:21792:9896:INFO:app run: user login successfully
+2022-03-09 22:13:09,389:UserFacade:get_by_user_and_password:21792:7612:INFO:userFacade: getting user by name: karin
+2022-03-09 22:13:09,389:app:login:21792:7612:INFO:app run: user login successfully
+2022-03-09 22:14:31,991:UserFacade:get_by_user_and_password:21792:13240:INFO:userFacade: getting user by name: karin
+2022-03-09 22:14:31,992:app:login:21792:13240:INFO:app run: user login successfully
+2022-03-09 22:15:24,646:UserFacade:get_by_user_and_password:3192:1820:INFO:userFacade: getting user by name: karin
+2022-03-09 22:15:24,647:app:login:3192:1820:INFO:app run: user login successfully
+2022-03-09 22:20:07,103:UserFacade:get_by_user_and_password:23776:20896:INFO:userFacade: getting user by name: karin
+2022-03-09 22:23:11,512:UserFacade:get_by_user_and_password:25460:16956:INFO:userFacade: getting user by name: karin
+2022-03-09 22:23:11,512:app:login:25460:16956:INFO:app run: user login successfully
+2022-03-09 22:24:02,377:UserFacade:get_by_user_and_password:10324:8232:INFO:userFacade: getting user by name: karin
+2022-03-09 22:24:02,378:app:login:10324:8232:INFO:app run: user login successfully
+2022-03-09 22:24:09,774:UserFacade:get_by_user_and_password:10324:18736:INFO:userFacade: getting user by name: karinsasss
+2022-03-09 22:24:09,775:app:login:10324:18736:INFO:app run: user login successfully
+2022-03-09 22:47:27,823:UserFacade:get_by_user_and_password:10536:1968:INFO:userFacade: getting user by name: karinsasss
+2022-03-09 22:47:27,825:app:login:10536:1968:INFO:app run: user login successfully
+2022-03-09 22:50:47,778:app:decorated:10536:24524:ERROR:app run: Token is missing
+2022-03-09 22:52:15,855:UserFacade:get_by_user_and_password:24116:23808:INFO:userFacade: getting user by name: karinsasss
+2022-03-09 22:52:15,857:app:login:24116:23808:INFO:app run: user login successfully
+2022-03-09 22:52:24,566:UserFacade:get_by_user_and_password:24116:19908:INFO:userFacade: getting user by name: karinsasss45
+2022-03-09 22:52:24,567:app:login:24116:19908:INFO:app run: user login successfully
+2022-03-09 22:55:08,259:UserFacade:get_by_user_and_password:24116:23780:INFO:userFacade: getting user by name: karinsasss45
+2022-03-09 22:55:08,260:app:login:24116:23780:INFO:app run: user login successfully
+2022-03-09 22:56:31,228:UserFacade:get_by_user_and_password:26608:7608:INFO:userFacade: getting user by name: k
+2022-03-09 22:58:19,211:UserFacade:get_by_user_and_password:20520:18580:INFO:userFacade: getting user by name: k
+2022-03-09 23:00:45,035:UserFacade:get_by_user_and_password:20520:11612:INFO:userFacade: getting user by name: k
+2022-03-09 23:01:09,587:UserFacade:get_by_user_and_password:24924:17244:INFO:userFacade: getting user by name: k
+2022-03-09 23:03:32,925:UserFacade:get_by_user_and_password:24924:2564:INFO:userFacade: getting user by name: roy
+2022-03-09 23:03:32,926:app:login:24924:2564:INFO:app run: user login successfully
+2022-03-09 23:04:18,429:UserFacade:get_by_user_and_password:24280:6796:INFO:userFacade: getting user by name: roy
+2022-03-09 23:04:18,433:app:login:24280:6796:INFO:app run: user login successfully
+2022-03-09 23:05:18,066:UserFacade:get_by_user_and_password:6324:13464:INFO:userFacade: getting user by name: roy
+2022-03-09 23:05:18,070:app:login:6324:13464:INFO:app run: user login successfully
+2022-03-09 23:08:44,349:UserFacade:get_by_user_and_password:8840:24956:INFO:userFacade: getting user by name: roy
+2022-03-09 23:08:44,353:app:login:8840:24956:INFO:app run: user login successfully
+2022-03-09 23:10:05,916:UserFacade:get_by_user_and_password:15484:11788:INFO:userFacade: getting user by name: roy
+2022-03-09 23:10:05,921:app:login:15484:11788:INFO:app run: user login successfully
+2022-03-09 23:11:28,928:UserFacade:get_by_user_and_password:11788:24520:INFO:userFacade: getting user by name: roy
+2022-03-09 23:11:28,932:app:login:11788:24520:INFO:app run: user login successfully
+2022-03-09 23:14:21,780:UserFacade:get_by_user_and_password:10584:1680:INFO:userFacade: getting user by name: roy
+2022-03-09 23:14:21,785:app:login:10584:1680:INFO:app run: user login successfully
+2022-03-09 23:14:57,739:UserFacade:get_by_user_and_password:10584:26256:INFO:userFacade: getting user by name: roy
+2022-03-09 23:15:10,910:UserFacade:get_by_user_and_password:10584:11052:INFO:userFacade: getting user by name: roy
+2022-03-09 23:15:10,911:app:login:10584:11052:INFO:app run: user login successfully
+2022-03-09 23:25:01,566:app:decorated:21148:12960:INFO:app run: received token
+2022-03-09 23:27:25,737:app:decorated:18620:12552:INFO:app run: received token
+2022-03-09 23:28:48,062:app:decorated:18620:9968:INFO:app run: received token
+2022-03-09 23:30:06,881:app:decorated:18620:25004:ERROR:app run: Token is missing
+2022-03-09 23:30:49,458:app:login:18620:14384:ERROR:app run: password and username is required
+2022-03-09 23:31:16,466:UserFacade:get_by_user_and_password:18620:8564:INFO:userFacade: getting user by name: roy
+2022-03-09 23:31:16,470:app:login:18620:8564:INFO:app run: user login successfully
+2022-03-09 23:31:33,489:UserFacade:get_by_user_and_password:18620:11412:INFO:userFacade: getting user by name: roy
+2022-03-09 23:31:33,489:app:login:18620:11412:INFO:app run: user login successfully
+2022-03-09 23:31:53,286:app:decorated:18620:25996:INFO:app run: received token
+2022-03-09 23:32:15,475:app:decorated:18620:10704:INFO:app run: received token
