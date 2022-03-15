@@ -4,6 +4,7 @@ from UserFacade import userFacade2
 from User_db import User
 from Db_Customers import Customer
 from flask import Flask, request, make_response, jsonify
+from werkzeug.security import generate_password_hash, check_password_hash
 from MyLogger1 import Logger
 from functools import wraps
 from datetime import datetime, timedelta
@@ -14,7 +15,7 @@ userFacade = userFacade2()
 logger = MyLogger1.Logger.get_instance()
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'Roy'
+app.config['SECRET_KEY'] = 'RoyDuvdevroy'
 
 
 def token_required(f):
@@ -23,16 +24,20 @@ def token_required(f):
         token = None
         if 'Authorization' in request.headers:
             token = request.headers['Authorization']
-            token = token.removeprefix('Bearer')
-            logger.logger.info(f'app run: received token')
-        if not token:
-            logger.logger.error(f'app run: Token is missing')
-            return make_response({'message': 'Token is missing !!'}, 401)
-        try:
-            payload = jwt.decode(token, app.config['SECRET_KEY'])
-        except():
-            logger.logger.error(f'app run: token is invalid')
-            return make_response('status: user token is invalid', 401)
+            token = token.removeprefix('Bearer ')
+            data = jwt.decode(token, app.config['SECRET_KEY'])
+     #   if 'Authorization' in request.headers:
+      #      token = request.headers['Authorization']
+       #     token = token.removeprefix('Bearer')
+        #logger.logger.info(f'app run: received token')
+        #if not token:
+         #   logger.logger.error(f'app run: Token is missing')
+        #    return make_response({'message': 'Token is missing !!'}, 401)
+       # try:
+       #     payload = jwt.decode(token, app.config['SECRET_KEY'])
+       # except():
+      #      logger.logger.error(f'app run: token is invalid')
+     #       return make_response('status: user token is invalid', 401)
         return f(*args, **kwargs)
 
     return decorated
@@ -74,6 +79,7 @@ def get_or_post_customer():
 @app.route('/customers/<int:id>', methods=['GET', 'PUT', 'DELETE', 'PATCH'])
 @token_required
 def get_customer_by_id(id):
+    return "hello"
     if request.method == 'GET':
         logger.logger.info(f'app run: getting customer by id: {id}')
         customer = customerFacade.get_by_id(id)
@@ -150,17 +156,22 @@ def login():
     password1 = data.get('password')
     if not data or not username or not password1:
         logger.logger.error(f'app run: password and username is required')
-        return make_response('password and username is required', 401)
+        return make_response('password and username is required', 401, {'WWW-Authenticate': 'Basic realm="Login '
+                                                                                            'required'})
     user = userFacade.get_by_user_and_password(username, password1)
     print(user)
     if user is None:
         logger.logger.error(f'app run: user dose not exist or wrong password')
-        return make_response('user dose not exist or wrong password', 401)
+        return make_response('user dose not exist or wrong password', 401, {'WWW-Authenticate': 'Basic realm="user '
+                                                                                                'dose not exist'})
 
     logger.logger.info(f'app run: user login successfully')
-    date = str(datetime.now() + timedelta(minutes=60))
-    token = jwt.encode({'username': username, 'expired': date}, app.config['SECRET_KEY'])
-    return make_response((jsonify(token)), 201)
+    token = jwt.encode({
+        'public_id': user.id,
+        'exp': datetime.utcnow() + timedelta(minutes=30)
+    }, app.config['SECRET_KEY'])
+
+    return make_response(jsonify({'token': token.decode('UTF-8')}), 201)
 
 
-app.run(host='127.0.0.47', port=8443)
+app.run(host='127.0.0.53', port=8443, debug=True)
