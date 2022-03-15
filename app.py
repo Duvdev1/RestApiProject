@@ -79,7 +79,6 @@ def get_or_post_customer():
 @app.route('/customers/<int:id>', methods=['GET', 'PUT', 'DELETE', 'PATCH'])
 @token_required
 def get_customer_by_id(id):
-    return "hello"
     if request.method == 'GET':
         logger.logger.info(f'app run: getting customer by id: {id}')
         customer = customerFacade.get_by_id(id)
