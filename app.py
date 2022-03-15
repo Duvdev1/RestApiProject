@@ -26,18 +26,15 @@ def token_required(f):
             token = request.headers['Authorization']
             token = token.removeprefix('Bearer ')
             data = jwt.decode(token, app.config['SECRET_KEY'])
-     #   if 'Authorization' in request.headers:
-      #      token = request.headers['Authorization']
-       #     token = token.removeprefix('Bearer')
-        #logger.logger.info(f'app run: received token')
-        #if not token:
-         #   logger.logger.error(f'app run: Token is missing')
-        #    return make_response({'message': 'Token is missing !!'}, 401)
-       # try:
-       #     payload = jwt.decode(token, app.config['SECRET_KEY'])
-       # except():
-      #      logger.logger.error(f'app run: token is invalid')
-     #       return make_response('status: user token is invalid', 401)
+        logger.logger.info(f'app run: received token')
+        if not token:
+            logger.logger.error(f'app run: Token is missing')
+            return make_response({'message': 'Token is missing !!'}, 401)
+        try:
+            payload = jwt.decode(token, app.config['SECRET_KEY'])
+        except():
+            logger.logger.error(f'app run: token is invalid')
+            return make_response('status: user token is invalid', 401)
         return f(*args, **kwargs)
 
     return decorated
